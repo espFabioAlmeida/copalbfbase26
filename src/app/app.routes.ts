@@ -3,6 +3,7 @@ import { CategoriaSub14Component } from './categoria-sub14/categoria-sub14.compo
 import { CategoriaSub16Component } from './categoria-sub16/categoria-sub16.component';
 import { CategoriaSub18Component } from './categoria-sub18/categoria-sub18.component';
 import { TabelaComponent } from './tabela/tabela.component';
+import { DocumentosComponent } from './documentos/documentos.component';
 
 export const routes: Routes = [
     {
@@ -30,6 +31,10 @@ export const routes: Routes = [
         component: CategoriaSub18Component,
         pathMatch: 'full'
     },
-
+    {
+        path: 'documentos',
+        component: DocumentosComponent,
+        pathMatch: 'full'
+    },
 
 ];
